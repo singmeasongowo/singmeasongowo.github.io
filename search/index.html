@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8" />
@@ -47,10 +47,38 @@
                     })();
                 </script>
                 
+    <script src="//cdn.jsdelivr.net/gh/tangkaichuan/gridea-search/lib/fuse.js"></script>
+    <script src="//cdn.jsdelivr.net/gh/tangkaichuan/gridea-search/lib/ejs.min.js"></script>
+    <script src="//cdn.jsdelivr.net/gh/tangkaichuan/gridea-search/lib/gridea-search.min.js"></script>
+    <script src="//cdn.jsdelivr.net/gh/tangkaichuan/gridea-search/example/assets/media/gridea-search/result-template.ejs" type="text/ejs"></script>
+    <style>
+            .main_ {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                height: 90vh;
+            }
+            
+            .result-box {
+                margin-top: 50px;
+                display: flex;
+                border-radius: 5px;
+                -webkit-box-sizing: border-box;
+                -moz-box-sizing: border-box;
+                box-sizing: border-box;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        </style>
 </head>
 
 <body>
-    <div class="wrapper">
+    <style>
+        .searched-keyword {
+            background-color: green;
+        }
+    </style>
+    <div class="main_">
         <header>
     <nav class="navbar">
         <div class="container">
@@ -157,129 +185,15 @@
 
     }
 </script>
-            <div class="main">
-                <div class="container">
-                    <article class="post-wrap">
-                        <header class="post-header">
-                            <h1 class="post-title">
-                                主页
-                            </h1>
-                            
-                                <!--en-->
-                                <div class="post-meta en">
-                                    Author:
-                                    <a itemprop="author" rel="author" href="/">
-                                        博客名称
-                                    </a>
-                                    <span class="post-time">
-                                Date: <a href="#">2020-05-17</a>
-                            </span>
-                                    <span class="post-readtime">Reading Time:<a
-                                    href="#">0.0
-                                    mins</a></span>
-                                    <span class="post-words">words:<a href="#">1</a></span>
-                                    
-                                        <span class="post-category">
-                                Category:
-                                
-                                <a href="https://singmeasongowo.github.io/tag/WybbEg0TQ/">Gridea</a>
-                                
-                            </span>
-                                        
-                                            Views:
-                                            <span data-hk-page="current"> - </span>
-                                            
-                                </div>
-                                
-                        </header>
-                        
-                        <div class="post-content">
-                            <p>Hello😊</p>
-
-                        </div>
-                        
-                            <div class="post-toc">
-                                
-                            </div>
-                            
-                                
-                                    
-                                        <!--en-->
-                                        <section class="post-copyright en">
-                                            <p class="copyright-item">
-                                                <span>Author:</span>
-                                                <span>博客名称</span>
-                                            </p>
-
-                                            <p class="copyright-item">
-                                                <span>Permalink:</span>
-                                                <span><a href="https://singmeasongowo.github.io/post/index/">https://singmeasongowo.github.io/post/index/</a></span>
-                                            </p>
-
-                                            <p class="copyright-item">
-                                                <span>License:</span>
-                                                <span>MIT License</span>
-                                            </p>
-                                        </section>
-                                        
-                                                
-                                                    
-                                                        <!-- Share-->
-                                                        <span style="margin-right:15px">
-                                                    <i class="post-share"></i>
-                                                    <span>Share:</span>
-                                                        <a title="QR Code" target="_blank" href="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://singmeasongowo.github.io/post/index/"><i class="fa fa-qrcode"></i></a>
-                                                        <a title="QQ" target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://singmeasongowo.github.io/post/index/&sharesource=qzone&title=主页&pics=https://singmeasongowo.github.io/images/avatar.png?v=1589662534773&summary="><i class="fa fa-qq"></i></a>
-                                                        <a title="Weibo" target="_blank" href="https://service.weibo.com/share/share.php?url=https://singmeasongowo.github.io/post/index/&sharesource=weibo&title=主页 + " - " + &pic="https://singmeasongowo.github.io/images/avatar.png?v=1589662534773 "><i class="fa fa-weibo "></i></a>
-                                                        
-                                                            <div class="reward ">
-                                                                <div class="reward-button ">&yen;
-                                                                    <span class="reward-code "> 
-                                                                <span class="alipay-code "> <img class="alipay-img " alt = "support " src="https://blog.itjoker.cn/alipay.jpg"><b>Alipay</b> </span>
-                                                                    <span class="wechat-code "> <img alt ="support " class="wechat-img " src="https://blog.itjoker.cn/wechat.jpg"><b>Wechat</b> </span> </span>
-                                                                </div>
-                                                            </div>
-                                                            
-                                                                </span>
-                                                                <!--en-->
-                                                                <section class="post-tags en ">
-                                                                    <div>
-                                                                        <span>Tag(s):</span>
-                                                                        <span class="tag ">
-                        
-                        
-                        <a href="https://singmeasongowo.github.io/tag/WybbEg0TQ/">#
-                                                Gridea
-                                                    </a>
-                                                    
-                                                        
-                                                            </span>
-                                                                    </div>
-                                                                    <div>
-                                                                        <a href="javascript:window.history.back();">back</a>
-                                                                        <span>&dot;</span>
-                                                                        <a href="#">home</a>
-                                                                    </div>
-                                                                </section>
-                                                                
-                                                                                <!---->
-                                                                                <section class="post-nav">
-                                                                                    
-                                                                                        <a class="prev" rel="prev" href="https://singmeasongowo.github.io/post/article-one/">
-                                                                                            春江花月夜
-                                                                                        </a>
-                                                                                        
-                                                                                            
-                                                                                </section>
-                    </article>
+            <div class="result-box">
+                <div id="gridea-search-result">
+                    <p class="searching">搜索中......</p>
+                    <p class="no-result" style="display:none">未搜索到相关文章</p>
                 </div>
-                
-                                            
             </div>
     </div>
-    </div>
-    </div>
-    
+</body>
+
     <div id="player"></div>
     
         <footer id="footer" class="footer">
@@ -368,10 +282,5 @@
                     console.log("\n %c \u26a1Theme:Chic Author's Blog:https://blog.itjoker.cn  Write By ITJoker  \n\n", "color: #ffffff; background: rgba(49, 49, 49, 0.85); padding:5px 0;border-radius:5px;");
                 </script>
                 
-        </div>
-</body>
-<script>
-    scroll();
-</script>
 
 </html>

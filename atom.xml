@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://singmeasongowo.github.io</id>
     <title>Sing me a Song</title>
-    <updated>2020-05-16T21:21:26.986Z</updated>
+    <updated>2020-05-17T14:24:19.280Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://singmeasongowo.github.io"/>
     <link rel="self" href="https://singmeasongowo.github.io/atom.xml"/>
@@ -35,19 +35,6 @@
 <p>江水流春去欲尽，江潭落月复西斜。</p>
 <p>斜月沉沉藏海雾，碣石潇湘无限路。</p>
 <p>不知乘月几人归，落月摇情满江树。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[主页]]></title>
-        <id>https://singmeasongowo.github.io/post/index/</id>
-        <link href="https://singmeasongowo.github.io/post/index/">
-        </link>
-        <updated>2020-05-16T18:02:49.000Z</updated>
-        <summary type="html"><![CDATA[<p>Hello😊</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>Hello😊</p>
-<!-- more -->
-<p>关于我：</p>
 ]]></content>
     </entry>
 </feed>
